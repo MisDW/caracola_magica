@@ -3,6 +3,10 @@
     margin:0px;
 }
 
+body{
+    overflow: hidden;
+}
+
 .container_page{
     background-image: url("img/fondo.png");
     height: 100vh;
@@ -29,6 +33,22 @@
     border-radius:100%;
     width:10px;
     height:10px;
-    transform: translateX(310px) translateY(90px);
+    top:90px;
+    left:305px;
+}
+
+.answer{
+    position: fixed;
+    color:#ffff;
+    text-shadow:2px 2px 2px black;
+    font-family:calibri;
+    font-size:50px;
+}
+
+.cuerda{
+    background-image: url("img/texturaCuerda.jpg");
+    background-size: cover;
+    width:20px;
+    height:20px;
 }
 
